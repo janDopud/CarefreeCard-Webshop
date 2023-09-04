@@ -12,8 +12,6 @@ import { Link, useLocation } from "react-router-dom";
 import { ShoppingCart } from "@mui/icons-material";
 import "./Navbar.css";
 
-// import logo
-
 const Navbar = ({ totalItems }) => {
   const location = useLocation();
 
