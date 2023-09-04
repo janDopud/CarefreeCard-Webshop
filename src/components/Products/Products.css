@@ -1,0 +1,25 @@
+:root {
+  flex-grow: 1;
+}
+
+.toolbar {
+  min-height: 64px;
+}
+
+@media (min-width: 0px) and (orientation: landscape) {
+  .toolbar {
+    min-height: 48px;
+  }
+}
+
+@media (min-width: 600px) {
+  .toolbar {
+    min-height: 56px;
+  }
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #f0f0f0;
+  padding: 24px;
+}

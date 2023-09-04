@@ -1,0 +1,75 @@
+/* CSS for appBar */
+.appBar {
+  position: relative;
+}
+
+/* CSS for toolbar */
+/* .toolbar {
+} */
+
+/* CSS for layout */
+.layout {
+  margin-top: 5%;
+  width: auto;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media (min-width: 600px) {
+  .layout {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* CSS for paper */
+.paper {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .paper {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 600px) {
+  .paper {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 24px;
+  }
+}
+
+/* CSS for stepper */
+.stepper {
+  padding: 24px 0 40px;
+}
+
+/* CSS for buttons */
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* CSS for button */
+.button {
+  margin-top: 24px;
+  margin-left: 8px;
+}
+
+/* CSS for divider */
+.divider {
+  margin: 20px 0;
+}
+
+/* CSS for spinner */
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

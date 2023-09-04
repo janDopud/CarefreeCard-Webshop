@@ -1,0 +1,41 @@
+/* Styling the Input component */
+.input-container {
+  width: 100%;
+  background-color: var(--bg-color);
+  border-bottom: 3px solid var(--btn-bg);
+  clip-path: polygon(
+    0.7em 0%,
+    calc(100% - 0.7em) 0%,
+    100% 0.7em,
+    100% 100%,
+    0 100%,
+    0% 0.7em
+  );
+  transition: 0.3s ease-in-out;
+}
+
+.input-container input {
+  color: var(--txt-color);
+  background: transparent;
+  padding: 1em 1.5em;
+  border: none;
+  width: 100%;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+  font-size: var(--txt-size);
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-weight: 700;
+  font-size: var(--text-size);
+  color: var(--txt-color);
+  transition: color 0.4s ease-in-out;
+}
+
+.input-container input:focus::placeholder {
+  color: transparent;
+}

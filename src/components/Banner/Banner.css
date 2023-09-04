@@ -1,0 +1,14 @@
+.banner {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner img {
+  width: 100%;
+}
